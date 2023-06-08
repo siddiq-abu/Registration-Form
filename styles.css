@@ -1,0 +1,99 @@
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+.first-set {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: purple;
+}
+
+input {
+    width: 500px;
+    padding: 8px;
+    border: 2px solid purple;
+
+}
+
+.courses {
+    width: 250px;
+    padding: 8px;
+    border: 2px solid purple;
+    color: purple;
+}
+
+.city {
+    width: 770px;
+}
+
+textarea {
+    width: 1070px;
+    border: 2px solid purple;
+    color: purple;
+}
+
+.one {
+    display: flex;
+    flex: start;
+    align-items: center;
+    margin-left: 40px;
+    border: none;
+}
+
+.radio {
+    width: 16px;
+}
+
+.create {
+    margin-top: 8px;
+}
+
+.text-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+
+.apply {
+    display: flex;
+    border: none;
+}
+
+.email {
+    margin-left: 40px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+}
+
+::placeholder {
+    color: purple;
+}
